@@ -1,7 +1,178 @@
 /* classes below here - ex) header, footer, etc */
+.header {
+    border: 10px solid salmon;
+}
+
+.title {
+    border: 5px solid brown;
+}
+
+.pages {
+    border: 5px solid lightblue;
+}
+
+.abt {
+    border: 5px solid lawngreen;
+}
+
+.port {
+    border: 5px solid seagreen;
+}
+
+.cont {
+    border: 5px solid green;
+}
+
+.contactme {
+    border: 10px solid skyblue;
+}
+
+.cntme {
+    border: 5px solid red;
+}
+
+.buttons {
+    border: 5px solid orange;
+}
+
+.git {
+    height: 50px;
+    width: 50px;
+}
+
+.linked {
+    height: 50px;
+    width: 50px;
+}
+
+.foot {
+    border: 5px solid slateblue;
+}
+
+.copyright {
+    border: 5px solid salmon;
+}
+
+.stack {
+    height: 50px;
+    width: 50px;
 
 /* index.html id's below here */
+#blah {
+
+}
+
+#mcont {
+    border: 10px solid black;
+}
+
+section {
+    border: 5px solid slateblue;
+}
+
+#aboutme {
+
+}
+
+#selfie {
+    border: 10px solid blueviolet;
+}
+
+#bio {
+    border: 5px solid slateblue;
+}
 
 /* portfolio.html id's below here */
+#main {
+
+}
+
+#phc {
+
+}
+
+#ph {
+
+}
+
+#placeholder {
+
+}
+
+#phc1 {
+
+}
+
+#ph1 {
+
+}
+
+#placeholder1 {
+
+}
+
+#phc2 {
+
+}
+
+#ph2 {
+
+}
+
+#placeholder2 {
+
+}
+
+#phc3 {
+
+}
+
+#ph3 {
+
+}
+
+#placeholder3 {
+
+}
+
+#phc4 {
+
+}
+
+#ph4 {
+
+}
+
+#placeholder4 {
+
+}
 
 /* contact.html id's below here */
+
+#contact {
+
+}
+
+#n {
+
+}
+
+#name {
+
+}
+
+#e {
+
+}
+
+#mail {
+
+}
+
+#m {
+
+}
+
+#msg {
+    
+}
