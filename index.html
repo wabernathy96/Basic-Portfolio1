@@ -6,30 +6,30 @@
     </head>
     <body>
         
-        <div id="header">
+        <div class="header">
         <header>
-             
-            <div id="title">
+           
+            <div class="title">
                 <h1>William W Abernathy</h1>
             </div>
-            
-        
-    
-            <div id="pages">
-                <button id="about" type="button">
-                    <a href="./index.html">About</a>
-                </button>
-                <button id="port" type="button">
-                    <a href="./portfolio.html">Portfolio</a>
-                </button>
-                 <button id="cont" type="button">
-                    <a href="./contact.html">Contact</a>
-                </button>
+                    
+            <div class="pages">
+                <form class="abt">
+                    <input type="button" value="About" onClick="parent.location='index.html'">
+                </form>                            
+                <form class="port">
+                    <input type="button" value="Portfolio" onClick="parent.location='portfolio.html'">
+                </form>    
+                <form class="cont">
+                     <input TYPE="button" value="Contact" onClick="parent.location='contact.html'">
+                </form>    
             </div>
-        
+                
         </header>
         </div> 
-
+    
+    <div id="content">        
+            
         <div id="section">
             <section>
                 <div id="aboutme">
@@ -54,5 +54,33 @@
             </section>
         </div>
 
+        <div class="contactme">
+            <aside>
+                <div class="cntme">
+                    <h3>Contact Me</h3>
+                </div>
+                
+                <div class="buttons">
+                    <a href="https://github.com/wabernathy96">
+                        <img class="git" src="./assets/images/github.svg" alt="Github">
+                    </a>
+                    <a href="https://www.linkedin.com/in/william-abernathy-989807b4/">
+                        <img class="linked" src="./assets/images/linkedin.png" alt="LinkedIn">
+                    </a>
+                    <a href="https://stackoverflow.com/users/9171274/william-w-abernathy">
+                        <img class="stack" src="./assets/images/stkover.jpeg" alt="StackOverflow">
+                    </a>
+                </div>
+            </aside>
+        </div> 
+    
+    </div>
+
+        <div class=footer>
+            <footer>
+                <h5 class="copyright">© William Wallace Abernathy 2018</h5>
+            </footer>
+        </div>
+    
     </body>
 </html>
