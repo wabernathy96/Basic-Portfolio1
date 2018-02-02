@@ -141,74 +141,90 @@ aside {
 
 /* portfolio.html id's below here */
 #main {
-    
-}
-
-#phc {
-
+    border: 5px solid black;
+    clear: both;
 }
 
 #ph {
-
+    position: relative;
+    text-align: center;
+    color: white;
+    width: 200px;
+    height: 200px;
 }
 
-#placeholder {
-
-}
-
-#phc1 {
-
+#pht {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 #ph1 {
-
+    position: relative;
+    text-align: center;
+    color: white;
+    width: 200px;
+    height: 200px;
 }
 
-#placeholder1 {
-
-}
-
-#phc2 {
-
+#pht1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 #ph2 {
-
+    position: relative;
+    text-align: center;
+    color: white;
+    width: 200px;
+    height: 200px;
 }
 
-#placeholder2 {
-
-}
-
-#phc3 {
-
+#pht2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 #ph3 {
-
+    position: relative;
+    text-align: center;
+    color: white;
+    width: 200px;
+    height: 200px;
 }
 
-#placeholder3 {
-
-}
-
-#phc4 {
-
+#pht3 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 #ph4 {
-
+    position: relative;
+    text-align: center;
+    color: white;
+    width: 200px;
+    height: 200px;
 }
 
-#placeholder4 {
-
+#pht4 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
-
 /* contact.html id's below here */
 
 #contact {
     border: 5px solid black;
     clear: both;
+    height: 500px;
 }
 
 #n {
