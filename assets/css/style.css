@@ -1,22 +1,19 @@
 /* classes below here - ex) header, footer, etc */
 body {
     background-image: url("./assets/images/circles-light.png"); /*?*/
-    width: 960px;
     
 }
 
 .navbar {
-    border: 10px solid salmon;
-    width: 100%;
-    height: 85px; 
+    border: 5px solid salmon;
+    width: 100%; 
     float: left;
 }
 
 .title {
     border: 5px solid brown;
     text-align: center;
-    width: 300px
-
+    float: left;
 }
 
 footer {
@@ -25,31 +22,30 @@ footer {
 .pages {
     border: 5px solid lightblue;
     padding: 30px;
-    width: 200px;
-    
+    float: right;
     margin: 0 0 0 0;
 }
 
 .abt {
-    width: 50px;
+    background-color: transparent;
     float: left;
     margin: 0 0 0 0px;
 }
+.abt:hover{
+    background-color: aquamarine;
+}
 
 .port {
-    width: 60px;
-    float: right;
+    float: left;
 }
 
 .cont {
-    width: 55px;
     float: right;
-    margin: 0 20px 0 0;
+    margin: 0 0px 0 0;
 }
 
 .contactme {
     border: 10px solid skyblue;
-    width: 270px;
     float: right;
     clear: left;
     margin: 20px 0px 20px 20px;
@@ -61,18 +57,21 @@ footer {
 }
 
 .buttons {
-    height: 50px;
     margin: 10px 0 0 0;
 }
 
 aside {
-    margin: 35px 0 0 0;
+    margin: 20px 0 0 0;
+    background-color: #ffffff;
+    border: 3px solid #ebebeb;
+    width: 270px;
+    float: right;
 }
 
 .git {
+    float: right;
     height: 50px;
     width: 50px;
-    float: right;
     margin: 0 57px 0 5px;
 }
 
@@ -94,7 +93,7 @@ aside {
     border: 5px solid slateblue;
     width: 100%;
     bottom: 0;
-    position: absolute;
+    /* position: absolute; */
 }
 
 .copyright {
@@ -104,40 +103,40 @@ aside {
 
 /* index.html id's below here */
 #mcont {
-    border: 10px solid black;
-    width: 960px;
     height: 500px;
-    margin: 20px 0 0 0;
+    width: 960px;
+    margin: 0px 0px 0 110px;
     clear: both;
 }
 
 #sect {
-    background-color: aquamarine;
-    border: 5px solid slateblue;
+   background-color: #ffffff;
+    border: 3px solid #ebebeb;
     height: 400px;
     width: 650px;
     float: left;
+    margin: 20px 0 0 0px;
 
 }
 
 #aboutme {
     border-bottom: 3px solid #ebebeb;
-    width: 93%;
+    width: 100%;
     height: 50px;
-    margin: 0 0 20px 20px;
+    /* margin: 0 0 20px 20px; */
 }
 
 #selfie {
     width: 150px;
     height: 200px;
     float: left;
+    margin: 20px 0 0 15px;
 }
 
 #bio {
-    border: 5px solid black;
     width: 350px;
     float: left;
-    margin: 0 0 0 15px;
+    margin: 15px 0 0 60px;
 }
 
 /* portfolio.html id's below here */
