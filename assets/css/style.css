@@ -140,9 +140,41 @@ aside {
 }
 
 /* portfolio.html id's below here */
-#main {
-    border: 5px solid black;
+#mcont1 {
+    height: 600px;
+    width: 960px;
+    margin: 0px 0px 0 110px;
     clear: both;
+}
+
+#sect1 {
+   background-color: #ffffff;
+    border: 3px solid #ebebeb;
+    /* height: 400px; */
+    width: 650px;
+    float: left;
+    margin: 20px 0 0 0px;
+
+}
+#portT {
+    border-bottom: 3px solid #ebebeb;
+    width: 100%;
+    height: 50px;
+}
+
+#phch {
+    border: 3px solid seagreen;
+    float: left;
+    width: 560px;
+    height: 200px;
+    margin: 20px 0 0 50px;
+}
+
+#phs {
+    border: 5px solid blueviolet;
+    width: 650px;
+    height: 500px;
+    margin: 0 0 0 0;
 }
 
 #ph {
@@ -151,6 +183,8 @@ aside {
     color: white;
     width: 200px;
     height: 200px;
+    margin: 0 20px 0 0;
+    float: left;
 }
 
 #pht {
@@ -166,6 +200,15 @@ aside {
     color: white;
     width: 200px;
     height: 200px;
+    float: left;
+}
+
+#phch1 {
+    border: 3px solid darkseagreen;
+    float: left;
+    width: 560px;
+    height: 200px;
+    margin: 20px 0 0 50px;
 }
 
 #pht1 {
@@ -181,6 +224,8 @@ aside {
     color: white;
     width: 200px;
     height: 200px;
+    float: left;
+    margin: 0 20px 0 0px;
 }
 
 #pht2 {
@@ -196,6 +241,7 @@ aside {
     color: white;
     width: 200px;
     height: 200px;
+    float: left;
 }
 
 #pht3 {
@@ -205,48 +251,60 @@ aside {
     transform: translate(-50%, -50%);
 }
 
-#ph4 {
-    position: relative;
-    text-align: center;
-    color: white;
-    width: 200px;
-    height: 200px;
-}
-
-#pht4 {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
 /* contact.html id's below here */
 
-#contact {
-    border: 5px solid black;
-    clear: both;
+#mcont2 {
     height: 500px;
+    width: 960px;
+    margin: 0px 0px 0 110px;
+    clear: both;
+}
+
+#sect2 {
+    background-color: #ffffff;
+    border: 3px solid #ebebeb;
+    /* height: 400px; */
+    width: 650px;
+    float: left;
+    margin: 20px 0 0 0px;
+}
+
+#contme {
+    border-bottom: 3px solid #ebebeb;
+    width: 100%;
+    height: 50px;
+}
+#contact {
+    clear: both;
 }
 
 #n {
-
+    width: 100%;
+    margin: 20px 0px 0 0;
 }
 
 #name {
-
+    width: 90%;
+    margin: 0 0px 0 20px; 
 }
 
 #e {
-
+    width: 100%;
+    margin: 20px 0px 0 0;
 }
 
 #mail {
-
+    width: 90%;
+    margin: 0 0px 0 20px;
 }
 
 #m {
-
+    width: 100%;
+    margin: 20px 0px 0 0;
 }
 
 #msg {
-    
+    width: 90%;
+    height: 100px;
+    margin: 0 0px 0 20px;
 }
