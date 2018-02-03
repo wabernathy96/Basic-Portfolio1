@@ -5,31 +5,53 @@ body {
 }
 
 .navbar {
-    border: 5px solid salmon;
+    border-bottom: 5px solid #ebebeb;
     width: 100%; 
     float: left;
 }
 
+h1 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+h2 {
+    color: #4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+h3 {
+    color: #4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+h5 {
+    color: #ffffff;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+p {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
 .title {
-    border: 5px solid brown;
+    background-color: #4aaaa5;
     text-align: center;
     float: left;
+    padding: 10px;
+    margin: 10px 0 0 30px;
+    color: #ffffff;
 }
 
 footer {
     width: 100%;
+    background-color: #666666;
 }
 .pages {
-    border: 5px solid lightblue;
+    
     padding: 30px;
     float: right;
-    margin: 0 0 0 0;
+    margin: 20px 0 0 0;
 }
 
 .abt {
     background-color: transparent;
     float: left;
-    margin: 0 0 0 0px;
+    margin: 0 10px 0 0px;
 }
 .abt:hover{
     background-color: aquamarine;
@@ -41,7 +63,7 @@ footer {
 
 .cont {
     float: right;
-    margin: 0 0px 0 0;
+    margin: 0 0px 0 10px;
 }
 
 .contactme {
@@ -63,7 +85,7 @@ footer {
 aside {
     margin: 20px 0 0 0;
     background-color: #ffffff;
-    border: 3px solid #ebebeb;
+    border: 3px solid #dddddd;
     width: 270px;
     float: right;
 }
@@ -90,14 +112,14 @@ aside {
 
 
 .foot {
-    border: 5px solid slateblue;
+    border-top: 5px solid #4aaaa5;
     width: 100%;
+    height: 100%;
     bottom: 0;
-    /* position: absolute; */
+    background-color: #666666;
 }
 
 .copyright {
-    border: 5px solid salmon;
     text-align: center;
 }
 
@@ -111,7 +133,7 @@ aside {
 
 #sect {
    background-color: #ffffff;
-    border: 3px solid #ebebeb;
+    border: 3px solid #dddddd;
     height: 400px;
     width: 650px;
     float: left;
@@ -149,7 +171,7 @@ aside {
 
 #sect1 {
    background-color: #ffffff;
-    border: 3px solid #ebebeb;
+    border: 3px solid #dddddd;
     /* height: 400px; */
     width: 650px;
     float: left;
@@ -163,7 +185,6 @@ aside {
 }
 
 #phch {
-    border: 3px solid seagreen;
     float: left;
     width: 560px;
     height: 200px;
@@ -204,7 +225,6 @@ aside {
 }
 
 #phch1 {
-    border: 3px solid darkseagreen;
     float: left;
     width: 560px;
     height: 200px;
@@ -262,7 +282,7 @@ aside {
 
 #sect2 {
     background-color: #ffffff;
-    border: 3px solid #ebebeb;
+    border: 3px solid #dddddd;
     /* height: 400px; */
     width: 650px;
     float: left;
