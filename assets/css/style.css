@@ -127,7 +127,7 @@ aside {
 #mcont {
     height: 500px;
     width: 960px;
-    margin: 0px 0px 0 110px;
+    margin: 0px auto;
     clear: both;
 }
 
@@ -165,7 +165,7 @@ aside {
 #mcont1 {
     height: 600px;
     width: 960px;
-    margin: 0px 0px 0 110px;
+    margin: 0px auto;
     clear: both;
 }
 
@@ -277,7 +277,7 @@ aside {
     height: 500px;
     width: 960px;
     margin: 0px 0px 0 110px;
-    clear: both;
+    clear: both auto;
 }
 
 #sect2 {
@@ -327,4 +327,51 @@ aside {
     width: 90%;
     height: 100px;
     margin: 0 0px 0 20px;
+}
+
+/* Media Queries  */
+@media (max-width: 959px) {
+    .navbar {
+        width: 100%;
+    }
+    .title {
+        width: 100%;
+        clear: both;
+    }
+    .pages {
+        width: 30%;
+        margin: 0 auto;
+    }
+    .abt {
+        margin: 0 auto;
+        float: left;
+    }
+    .port {
+        margin: 0 auto;
+        float: left;
+    }
+    .cont {
+        margin: 0 auto;
+        float: left;
+    }
+    aside {
+        float: left;
+    }
+    .foot {
+        width: 100%;
+        clear: both;
+        margin: 10px 0 0 0;
+    }
+    #mcont {
+        width: 100%;
+    }
+    #mcont1 {
+        width: 100%;
+    }
+    #mcont2 {
+        width: 100%;
+    }
+    #sect {
+        width: 100%;
+    }
 }
